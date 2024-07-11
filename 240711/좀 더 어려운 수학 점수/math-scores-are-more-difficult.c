@@ -7,13 +7,15 @@ int main() {
     scanf("%d %d%*c", &a_math, &a_eng);
     scanf("%d %d%*c", &b_math, &b_eng);
 
-    if ((a_math >= b_math) && (a_eng > b_eng)) {
+    if (a_math > b_math) {
         printf("A");
     }
-    else {
+    else if ((a_math == b_math) && (a_eng < b_eng)) {
         printf("B");
     }
-    
-    
+    else {
+        printf("A");
+    }
+
     return 0;
 }
