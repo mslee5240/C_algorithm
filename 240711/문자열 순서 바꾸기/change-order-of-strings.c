@@ -6,17 +6,7 @@ int main() {
 
     scanf("%s %s%*c", s, t);
 
-    for (int i = 0; i < 101; ++i) {
-        tmp[i] = s[i];
-        s[i] = t[i];
-        t[i] = tmp[i];
-
-        if (s[i] == '\0' || t[i] == '\0') {
-            break;
-        }
-    }
-
-    printf("%s\n%s", s, t);
+    printf("%s\n%s", t, s);
 
     return 0;
 }
