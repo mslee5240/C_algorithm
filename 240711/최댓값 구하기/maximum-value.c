@@ -5,10 +5,10 @@ int main() {
     int a = 0, b = 0, c = 0;
     scanf("%d %d %d%*c", &a, &b, &c);
 
-    if ((a > b) && (a > c)) {
+    if ((a >= b) && (a >= c)) {
         printf("%d", a);
     }
-    else if (b > c) {
+    else if (b >= c) {
         printf("%d", b);
     }
     else {
