@@ -8,11 +8,13 @@ int main() {
     if (y == 2) {
         printf("28");
     }
-    else if ((y <= 7) && (y % 2 == 1)) {
-        printf("31");
-    }
     else {
-        printf("30");
+        if ((y <= 7 && y % 2 == 1) || (y > 7 && y % 2 == 1)) {
+            printf("31");
+        }
+        else {
+            printf("30");
+        }
     }
 
     return 0;
