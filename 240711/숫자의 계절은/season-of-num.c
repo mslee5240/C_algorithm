@@ -12,10 +12,10 @@ int main() {
         printf("Spring");
     }
     else if (m < 9) {
-        printf("Fall");
+        printf("Summer");
     }
     else {
-        printf("Winter");
+        printf("Fall");
     }
 
     return 0;
