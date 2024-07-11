@@ -9,7 +9,7 @@ int main() {
         printf("28");
     }
     else {
-        if ((y <= 7 && y % 2 == 1) || (y > 7 && y % 2 == 0)) {
+        if ((y <= 7) ? y % 2 == 1 : y % 2 == 0) {
             printf("31");
         }
         else {
@@ -18,4 +18,5 @@ int main() {
     }
 
     return 0;
+    ((y <= 7) ? y % 2 == 1 : y % 2 == 0)
 }
