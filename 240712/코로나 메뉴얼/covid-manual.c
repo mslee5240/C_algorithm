@@ -10,13 +10,13 @@ int main() {
     scanf("%c %d%*c", &sym_b, &b);
     scanf("%c %d%*c", &sym_c, &c);
 
-    if (sym_a  == 'Y' && a > 37) {
+    if (sym_a  == 'Y' && a >= 37) {
         cnt += 1;
     }
-    if (sym_b  == 'Y' && b > 37) {
+    if (sym_b  == 'Y' && b >= 37) {
         cnt += 1;
     }
-    if (sym_c  == 'Y' && c > 37) {
+    if (sym_c  == 'Y' && c >= 37) {
         cnt += 1;
     }
     if (cnt >= 2) {
