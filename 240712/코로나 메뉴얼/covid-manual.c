@@ -13,6 +13,9 @@ int main() {
         if ((sym_b = 'Y' && b >= 37) || (sym_c == 'Y' && c >= 37)) {
             printf("E");
         }
+        else {
+            printf("E");
+        }
     }
     else if ((sym_b = 'Y' && b >= 37) && (sym_c == 'Y' && c >= 37)) {
         printf("E");
