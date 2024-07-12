@@ -13,9 +13,20 @@ int main() {
             printf("%d\n", c);
         }
     }
-    else {
-        if (a >= c || a >= b) {
+    else if (b >= a && b >= c) {
+        if (a >= c) {
             printf("%d\n", a);
+        }
+        else {
+            printf("%d\n", c);
+        }
+    }
+    else {
+        if (a >= b) {
+            printf("%d\n", a);
+        }
+        else {
+            printf("%d\n", b);
         }
     }
     return 0;
