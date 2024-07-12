@@ -14,7 +14,9 @@ int main() {
         }
     }
     else {
-        printf("%d\n", a);
+        if (a >= c || a >= b) {
+            printf("%d\n", a);
+        }
     }
     return 0;
 }
