@@ -14,7 +14,7 @@ int main() {
             printf("E");
         }
         else {
-            printf("E");
+            printf("N");
         }
     }
     else if ((sym_b = 'Y' && b >= 37) && (sym_c == 'Y' && c >= 37)) {
