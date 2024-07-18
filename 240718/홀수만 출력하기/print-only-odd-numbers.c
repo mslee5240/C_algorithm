@@ -2,13 +2,15 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    int i = 1, nInput = 0;
-    while (i <= 100) {
-        scanf("%d%*c", &nInput);
-        if (nInput % 2 == 1 && nInput % 3 == 0) {
-            printf("%d\n", nInput);
+    int n = 0;
+    scanf("%d%*c", &n);
+
+    for (int i = 1; i <= n; i++) {
+        int a = 0;
+        scanf("%d%*c", &a);
+        if (a % 2 == 1 && a % 3 == 0) {
+            printf("%d\n", a);
         }
-        i++;
     }
     return 0;
 }
