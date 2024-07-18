@@ -6,7 +6,7 @@ int main() {
     scanf("%d%*c", &n);
 
     int i = 1;
-    while (i < = n) {
+    while (i <= n) {
         if (i % 3 == 0) {
             printf("0 ");
         }
@@ -19,6 +19,7 @@ int main() {
         else {
             printf("%d ", i);
         }
+        i++;
     }
     
     return 0;
