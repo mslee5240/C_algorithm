@@ -9,7 +9,7 @@ int main() {
         if (i % 3 == 0) {
             printf("0 ");
         }
-        else if (i > 10 && (i % 3 == 1 || (i % 30) <= 9)){
+        else if (i % 10 == 3 || i % 10 == 6 || i % 10 == 9){
             printf("0 ");
         }
         else {
