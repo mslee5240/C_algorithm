@@ -7,14 +7,10 @@ int main() {
 
     int prod = 1;
 
-    if (b == 0) {
-        prod = 1;
-    }
-    else {
-        for (int i = 0; i < b; i++) {
+    
+    for (int i = 0; i < b; i++) {
             prod *= a;
         }
-    }
 
     printf("%d", prod);
     
