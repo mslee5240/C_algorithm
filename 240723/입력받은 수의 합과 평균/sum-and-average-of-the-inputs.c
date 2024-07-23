@@ -5,15 +5,14 @@ int main() {
     int n = 0;
     scanf("%d", &n);
 
-    int nInput = 0, sum_val = 0, cnt = 0;
+    int nInput = 0, sum_val = 0;
 
     for (int i = 1; i <= n; i++) {
         scanf("%d", &nInput);
         sum_val += nInput;
-        cnt++;
     }
 
-    printf("%d %.1f", sum_val, (double)sum_val / cnt);
+    printf("%d %.1f", sum_val, (double)sum_val / n);
 
     return 0;
 }
