@@ -8,7 +8,7 @@ int main() {
     int prod = 1;
 
     if (b == 0) {
-        a = 1;
+        prod = 1;
     }
     else {
         for (int i = 0; i < b; i++) {
