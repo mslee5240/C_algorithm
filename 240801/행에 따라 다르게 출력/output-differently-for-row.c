@@ -11,15 +11,14 @@ int main() {
         for (int j = 0; j < n; ++j) {
             if (i % 2 == 0) {
                 cnt++;
-                printf("%d ", cnt);
             }
             else {
                 cnt += 2;
-                printf("%d ", cnt);
             }
+            printf("%d ", cnt);
         }
         printf("\n");
     }
-    
+
     return 0;
 }
