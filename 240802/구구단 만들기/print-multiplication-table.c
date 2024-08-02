@@ -8,12 +8,12 @@ int main() {
     for (int i = 1; i <= 9; ++i) {
         for (int j = b; j >= a; j -= 2) {
             printf("%d * %d = %d", j, i, j * i);
-            if (j > 2) {
+            if (j > 2 || a != b) {
                 printf(" / ");
             }
         }
         printf("\n");
     }
-    
+
     return 0;
 }
