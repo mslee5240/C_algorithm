@@ -14,6 +14,10 @@ int main() {
         }
     }
 
+    if (tmp == 0) {
+        tmp = 10;
+    }
+    
     for (int j = tmp - 1; j >= 0; --j) {
         printf("%d ", nArr[j]);
     }
