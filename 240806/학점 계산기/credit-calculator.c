@@ -17,10 +17,10 @@ int main() {
 
     printf("%.1lf\n", avg);
 
-    if (avg > 4.0) {
+    if (avg >= 4.0) {
         printf("Perfect");
     }
-    else if (avg > 3.0) {
+    else if (avg >= 3.0) {
         printf("Good");
     }
     else {
