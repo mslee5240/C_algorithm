@@ -8,7 +8,7 @@ int main() {
     scanf("%c", &ch);
 
     for (int i = 0; i < 6; ++i) {
-        if (chArr[i] == 'L') {
+        if (chArr[i] == ch) {
             printf("%d", i);
             break;
         }
