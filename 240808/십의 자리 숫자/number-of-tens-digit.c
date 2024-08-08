@@ -11,19 +11,23 @@ int main() {
         if (nArr[i] == 0) {
             break;
         }
+        if (nArr[i] < 10) {
+            continue;
+        }
+        ++cntArr[nArr[i] / 10 - 1];
     }
 
-    for (int j = 0; j < i; ++j) {
-        int n = 0;
-        n = nArr[j] / 10;
-        if (n > 0) {
-            ++cntArr[n - 1];
-        }
-    }
+    // for (int j = 0; j < i; ++j) {
+    //     int n = 0;
+    //     n = nArr[j] / 10;
+    //     if (n > 0) {
+    //         ++cntArr[n - 1];
+    //     }
+    // }
 
     for (int j = 0; j < 9; ++j) {
         printf("%d - %d\n", j + 1, cntArr[j]);
     }
-    
+
     return 0;
 }
