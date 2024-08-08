@@ -12,9 +12,12 @@ int main() {
             printf("%d", i);
             break;
         }
+        if (i == 5) {
+            printf("None");
+        }
     }
 
-    printf("None");
+    
 
     return 0;
 }
