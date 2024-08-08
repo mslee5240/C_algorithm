@@ -12,11 +12,9 @@ int main() {
             printf("%d", i);
             break;
         }
-        else {
-            printf("None");
-            break;
-        }
     }
+
+    printf("None");
 
     return 0;
 }
