@@ -9,8 +9,9 @@ int main() {
         scanf("%d%*c", &nArr[i]);
     }
 
-    int qArr[3] = { 0 };
+    
     for (int i = 0; i < q; ++i) {
+        int qArr[3] = { 0 };
         for (int j = 0; j < 3; ++j) {
             scanf("%d%*c", &qArr[j]);
             if ((qArr[0] == 1 || qArr[0] == 2) && j == 1) {
