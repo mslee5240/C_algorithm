@@ -33,7 +33,7 @@ int main() {
         }
         else {
             for (int j = qArr[1] - 1; j < qArr[2]; ++j) {
-                printf("%d ", nArr[j]);
+                printf("%d\n", nArr[j]);
             }
         }
     }
