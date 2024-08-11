@@ -12,7 +12,7 @@ int main() {
     for (int i = 0; i < n; ++i) {
         scanf("%d%*c", &nArr[i]);
         cntArr[nArr[i]]++;
-        if (nArr[i] > max_val && cntArr[nArr[i]] <= 1) {
+        if (nArr[i] > max_val && cntArr[nArr[i]] < 1) {
             max_val = nArr[i];
         }
     }
