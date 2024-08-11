@@ -14,14 +14,18 @@ int main() {
         cntArr[nArr[i]]++;
     }
 
-    int max_val = -1;
+    int max_val = 0;
     for (int i = 0; i < 1000; ++i) {
         if (nArr[i] > max_val && cntArr[nArr[i]] <= 1) {
             max_val = nArr[i];
         }
     }
-
-    printf("%d", max_val);
+    if (max_val == 0) {
+        printf("%d", -1);
+    }
+    else {
+        printf("%d", max_val);
+    }
     
     return 0;
 }
