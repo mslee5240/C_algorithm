@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 3; ++j) {
-            scanf("%c%*c", &chArr[i][j]);
+            scanf("%c", &chArr[i][j]);
         }
     }
 
