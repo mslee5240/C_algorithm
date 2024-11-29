@@ -8,16 +8,19 @@ int main() {
     scanf("%d", &n);
 
     int cnt = 1;
+    int toggle = 0;
     for (int j = n - 1; j >= 0; j--) {
-        if (j % 2 == 1) {
+        if (toggle == 0) {
             for (int i = n - 1; i >= 0; i--) {
                 nArr[i][j] = cnt++;
             }
+            toggle = 1;
         }
         else {
             for (int i = 0; i < n; i++) {
                 nArr[i][j] = cnt++;
             }
+            toggle = 0;
         }
     }
 
