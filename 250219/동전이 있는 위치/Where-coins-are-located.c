@@ -7,12 +7,6 @@ int main() {
 
     int nArr[10][10] = { 0 };
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            nArr[i][j] = 0;
-        }
-    }
-
     for (int i = 0; i < m; i++) {
         int a = 0, b = 0;
         scanf("%d %d", &a, &b);
