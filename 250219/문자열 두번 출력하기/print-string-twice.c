@@ -6,9 +6,11 @@ int main() {
     
     scanf("%s", chArr);
 
-    for (int i = 0; i < 2; i ++) {
-        printf("%s\n", chArr);
-    }
-    
+    // for (int i = 0; i < 2; i ++) {
+    //     printf("%s\n", chArr);
+    // }
+
+    printf("%s\n%s", chArr, chArr);
+
     return 0;
 }
