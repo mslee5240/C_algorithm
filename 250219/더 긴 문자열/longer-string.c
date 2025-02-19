@@ -21,10 +21,5 @@ int main() {
         printf("same");
     }
     
-    
-    
-    
-    
-
     return 0;
 }
