@@ -2,14 +2,14 @@
 #include <string.h>
 
 int main() {
-    char chArr_1[20] = { 0 };
-    char chArr_2[20] = { 0 };
-    char chArr_3[20] = { 0 };
+    char chArr_1[21] = { 0 };
+    char chArr_2[21] = { 0 };
+    char chArr_3[21] = { 0 };
 
-    // 안전한 입력을 위해 %19s 사용
-    scanf("%19s", chArr_1);
-    scanf("%19s", chArr_2);
-    scanf("%19s", chArr_3);
+    // 안전한 입력을 위해 %20s 사용
+    scanf("%20s", chArr_1);
+    scanf("%20s", chArr_2);
+    scanf("%20s", chArr_3);
 
     int nArr[3] = { strlen(chArr_1), strlen(chArr_2), strlen(chArr_3) };
 
